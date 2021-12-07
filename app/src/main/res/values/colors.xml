@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="game_background">#000000</color>
+    <color name="maze_wall">#ff6600</color>
+    <color name="player">#3333ff</color>
+    <color name="player_finished">#ffffff</color>
+    <color name="destination">#3333ff</color>
+    
+    <color name="overlay">#80000000</color>
+    
+</resources>

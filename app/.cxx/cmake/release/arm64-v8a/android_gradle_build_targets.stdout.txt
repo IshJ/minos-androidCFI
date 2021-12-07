@@ -1,0 +1,279 @@
+ninja: Entering directory `/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/.cxx/cmake/release/arm64-v8a'
+[1/5] Linking CXX shared library /home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/build/intermediates/cmake/release/obj/arm64-v8a/libdexinfo.so
+[2/5] Linking CXX shared library /home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/build/intermediates/cmake/release/obj/arm64-v8a/liboatparser.so
+[3/5] Building C object libflush/CMakeFiles/flush.dir/libflush/hit.c.o
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:202:60: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                        LOGD("Camera hit %d-%d-%d.", j, i, count);
+                                               ~~          ^~~~~
+                                               %zu
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/logoutput.h:5:66: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG_NAME,__VA_ARGS__) // 定义LOGD类型
+                                                                 ^~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:205:25: warning: expression result unused [-Wunused-value]
+                        i;//1XXXX means camera set(it's only for our data collection and analysis)
+                        ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:224:63: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                        LOGD("Audio hit %d-%d-%d.", j + 1, i, count);
+                                              ~~              ^~~~~
+                                              %zu
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/logoutput.h:5:66: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG_NAME,__VA_ARGS__) // 定义LOGD类型
+                                                                 ^~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:251:53: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                        LOGD("Cache hit %d-%d.", j, count);
+                                           ~~       ^~~~~
+                                           %zu
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/logoutput.h:5:66: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG_NAME,__VA_ARGS__) // 定义LOGD类型
+                                                                 ^~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:171:66: warning: unused parameter 'times' [-Wunused-parameter]
+              int *continueRun, int threshold, int *flags, long *times, int *thresholds, int *logs,
+                                                                 ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:171:78: warning: unused parameter 'thresholds' [-Wunused-parameter]
+              int *continueRun, int threshold, int *flags, long *times, int *thresholds, int *logs,
+                                                                             ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:171:95: warning: unused parameter 'logs' [-Wunused-parameter]
+              int *continueRun, int threshold, int *flags, long *times, int *thresholds, int *logs,
+                                                                                              ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:200:31: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+                    if (count <= threshold) {
+                        ~~~~~ ^  ~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:222:31: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+                    if (count <= threshold) {
+                        ~~~~~ ^  ~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:241:27: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+                if (count <= threshold) {
+                    ~~~~~ ^  ~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:332:48: warning: data argument not used by format string [-Wformat-extra-args]
+                    LOGD("Compiler activated", j, count, addr[j]);
+                         ~~~~~~~~~~~~~~~~~~~~  ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/logoutput.h:5:66: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG_NAME,__VA_ARGS__) // 定义LOGD类型
+                                                                 ^~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:273:85: warning: unused parameter 'camera_audio' [-Wunused-parameter]
+stage1_(int *arr, size_t threshold, int *length_of_camera_audio, size_t *addr, int *camera_audio,
+                                                                                    ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:345:84: warning: unused parameter 'camera_audio' [-Wunused-parameter]
+stage1(int *arr, size_t threshold, int *length_of_camera_audio, size_t *addr, int *camera_audio,
+                                                                                   ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:432:81: warning: unused parameter 'camera_audio' [-Wunused-parameter]
+adjust_threshold(int threshold, int *length_of_camera_audio, size_t *addr, int *camera_audio,
+                                                                                ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:433:23: warning: unused parameter 'finishtrial1' [-Wunused-parameter]
+                 int *finishtrial1) {
+                      ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:454:27: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+                if (count <= threshold) {
+                    ~~~~~ ^  ~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:466:27: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+                if (count <= threshold) {
+                    ~~~~~ ^  ~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:512:27: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+                if (count <= threshold) {
+                    ~~~~~ ^  ~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:537:26: warning: unused parameter 'g_lock' [-Wunused-parameter]
+int hit(pthread_mutex_t *g_lock, int compiler_position, int *continueRun, int threshold, int *flags,
+                         ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:537:38: warning: unused parameter 'compiler_position' [-Wunused-parameter]
+int hit(pthread_mutex_t *g_lock, int compiler_position, int *continueRun, int threshold, int *flags,
+                                     ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:537:62: warning: unused parameter 'continueRun' [-Wunused-parameter]
+int hit(pthread_mutex_t *g_lock, int compiler_position, int *continueRun, int threshold, int *flags,
+                                                             ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:537:95: warning: unused parameter 'flags' [-Wunused-parameter]
+int hit(pthread_mutex_t *g_lock, int compiler_position, int *continueRun, int threshold, int *flags,
+                                                                                              ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:538:15: warning: unused parameter 'times' [-Wunused-parameter]
+        long *times, int *thresholds, int *logs, int *log_length, int sum_length,
+              ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:538:27: warning: unused parameter 'thresholds' [-Wunused-parameter]
+        long *times, int *thresholds, int *logs, int *log_length, int sum_length,
+                          ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:538:44: warning: unused parameter 'logs' [-Wunused-parameter]
+        long *times, int *thresholds, int *logs, int *log_length, int sum_length,
+                                           ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:538:55: warning: unused parameter 'log_length' [-Wunused-parameter]
+        long *times, int *thresholds, int *logs, int *log_length, int sum_length,
+                                                      ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:538:71: warning: unused parameter 'sum_length' [-Wunused-parameter]
+        long *times, int *thresholds, int *logs, int *log_length, int sum_length,
+                                                                      ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:539:17: warning: unused parameter 'addr' [-Wunused-parameter]
+        size_t *addr, int *camera_pattern, int *audio_pattern, int *length_of_camera_audio) {
+                ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:539:28: warning: unused parameter 'camera_pattern' [-Wunused-parameter]
+        size_t *addr, int *camera_pattern, int *audio_pattern, int *length_of_camera_audio) {
+                           ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:539:49: warning: unused parameter 'audio_pattern' [-Wunused-parameter]
+        size_t *addr, int *camera_pattern, int *audio_pattern, int *length_of_camera_audio) {
+                                                ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:539:69: warning: unused parameter 'length_of_camera_audio' [-Wunused-parameter]
+        size_t *addr, int *camera_pattern, int *audio_pattern, int *length_of_camera_audio) {
+                                                                    ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:571:11: warning: unused variable 'address' [-Wunused-variable]
+    void *address = &foo;
+          ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:561:17: warning: unused parameter 'param' [-Wunused-parameter]
+int hit2(char **param, int length, int threshold) {
+                ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:593:27: warning: unused parameter 'length' [-Wunused-parameter]
+int hit5(void *param, int length, int threshold) {
+                          ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:617:46: warning: incompatible integer to pointer conversion passing 'jlong' (aka 'long') to parameter of type 'void *' [-Wint-conversion]
+        is_address_in_use1(libflush_session, *(param + i), threshold, count);
+                                             ^~~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:81:64: note: passing argument to parameter 'address' here
+is_address_in_use1(libflush_session_t *libflush_session, void *address, int threshold, int count);
+                                                               ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:608:12: warning: unused variable 'count2' [-Wunused-variable]
+    size_t count2;
+           ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:636:9: warning: unused variable 'testV' [-Wunused-variable]
+    int testV = 1;
+        ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:660:12: warning: unused variable 'count2' [-Wunused-variable]
+    size_t count2;
+           ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:712:48: warning: format specifies type 'unsigned long' but the argument has type 'void *' [-Wformat]
+    LOGD("OdexScan:: Address:start for : %lu", param);
+                                         ~~~   ^~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/logoutput.h:5:66: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG_NAME,__VA_ARGS__) // 定义LOGD类型
+                                                                 ^~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:717:47: warning: format specifies type 'unsigned long' but the argument has type 'void *' [-Wformat]
+    LOGD("OdexScan:: Address:finished : %lu", param);
+                                        ~~~   ^~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/logoutput.h:5:66: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG_NAME,__VA_ARGS__) // 定义LOGD类型
+                                                                 ^~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:699:37: warning: unused parameter 'length' [-Wunused-parameter]
+int scanOdexMemory(void *param, int length, int threshold) {
+                                    ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:699:49: warning: unused parameter 'threshold' [-Wunused-parameter]
+int scanOdexMemory(void *param, int length, int threshold) {
+                                                ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:761:11: warning: unused variable 'address' [-Wunused-variable]
+    void *address = &foo;
+          ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:755:36: warning: unused parameter 'libflush_session' [-Wunused-parameter]
+bool scan_cfg1(libflush_session_t *libflush_session, int threshold) {
+                                   ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:755:58: warning: unused parameter 'threshold' [-Wunused-parameter]
+bool scan_cfg1(libflush_session_t *libflush_session, int threshold) {
+                                                         ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:816:39: warning: unused parameter 'g_lock' [-Wunused-parameter]
+long get_timingCount(pthread_mutex_t *g_lock, long *timingCount) {
+                                      ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:828:65: warning: unused parameter 'times' [-Wunused-parameter]
+             int *continueRun, int threshold, int *flags, long *times, int *thresholds, int *logs,
+                                                                ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:828:77: warning: unused parameter 'thresholds' [-Wunused-parameter]
+             int *continueRun, int threshold, int *flags, long *times, int *thresholds, int *logs,
+                                                                            ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:828:94: warning: unused parameter 'logs' [-Wunused-parameter]
+             int *continueRun, int threshold, int *flags, long *times, int *thresholds, int *logs,
+                                                                                             ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:866:31: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+                    if (count <= threshold) {
+                        ~~~~~ ^  ~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:900:23: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+            if (count <= threshold) {
+                ~~~~~ ^  ~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:944:50: warning: arithmetic on a pointer to void is a GNU extension [-Wpointer-arith]
+        libflush_flush(libflush_session, address + i);
+                                         ~~~~~~~ ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:945:78: warning: arithmetic on a pointer to void is a GNU extension [-Wpointer-arith]
+        count1 = libflush_reload_address_and_flush(libflush_session, address + i);
+                                                                     ~~~~~~~ ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:946:68: warning: arithmetic on a pointer to void is a GNU extension [-Wpointer-arith]
+        count2 = libflush_reload_address(libflush_session, address + i);
+                                                           ~~~~~~~ ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:947:68: warning: arithmetic on a pointer to void is a GNU extension [-Wpointer-arith]
+        count2 = libflush_reload_address(libflush_session, address + i);
+                                                           ~~~~~~~ ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:949:60: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        LOGD("AddressScan: not_in_cache: %d in_cache: %d", count1, count2);
+                                         ~~                ^~~~~~
+                                         %zu
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/logoutput.h:5:66: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG_NAME,__VA_ARGS__) // 定义LOGD类型
+                                                                 ^~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:949:68: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        LOGD("AddressScan: not_in_cache: %d in_cache: %d", count1, count2);
+                                                      ~~           ^~~~~~
+                                                      %zu
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/logoutput.h:5:66: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG_NAME,__VA_ARGS__) // 定义LOGD类型
+                                                                 ^~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:956:16: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+    if (count1 <= threshold) {
+        ~~~~~~ ^  ~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:966:9: warning: unused variable 'i' [-Wunused-variable]
+    int i = 0;
+        ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:963:77: warning: unused parameter 'threshold' [-Wunused-parameter]
+is_address_in_use1(libflush_session_t *libflush_session, void *address, int threshold, int count) {
+                                                                            ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:963:92: warning: unused parameter 'count' [-Wunused-parameter]
+is_address_in_use1(libflush_session_t *libflush_session, void *address, int threshold, int count) {
+                                                                                           ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:1027:32: warning: incompatible pointer to integer conversion assigning to 'long' from 'void *' [-Wint-conversion]
+        addresses[*log_length] = address;
+                               ^ ~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:983:26: warning: unused parameter 'timingCount' [-Wunused-parameter]
+                   long *timingCount, long *times, int *logs, long *timingCounts, long *addresses,
+                         ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:985:66: warning: unused parameter 'hitVal' [-Wunused-parameter]
+                   int *pauses, int addressId, int pauseVal, int hitVal, bool resetHitCounter) {
+                                                                 ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:996:18: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+    if (scanTime < threshold) {
+        ~~~~~~~~ ^ ~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:1046:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:1056:33: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+    if (threshold > 0 && count2 < threshold) {
+                         ~~~~~~ ^ ~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:1057:20: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+        if (count2 > threshold - 20) {
+            ~~~~~~ ^ ~~~~~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:1094:47: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+    LOGD("shared_data_shm_fd shared_data %d", shared_data);
+                                         ~~   ^~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/logoutput.h:5:66: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG_NAME,__VA_ARGS__) // 定义LOGD类型
+                                                                 ^~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:1102:26: warning: unused parameter 'shared_data_shm_fd' [-Wunused-parameter]
+int set_shared_memfd(int shared_data_shm_fd, int *shared_data, pthread_mutex_t *shared_mem_lock) {
+                         ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:1102:51: warning: unused parameter 'shared_data' [-Wunused-parameter]
+int set_shared_memfd(int shared_data_shm_fd, int *shared_data, pthread_mutex_t *shared_mem_lock) {
+                                                  ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:1102:81: warning: unused parameter 'shared_mem_lock' [-Wunused-parameter]
+int set_shared_memfd(int shared_data_shm_fd, int *shared_data, pthread_mutex_t *shared_mem_lock) {
+                                                                                ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:1127:35: warning: incompatible pointer types passing 'jchar *' (aka 'unsigned short *') to parameter of type 'const char *' [-Wincompatible-pointer-types]
+    int shared_data_shm_fd = open(fileDes, O_RDONLY);
+                                  ^~~~~~~
+/home/ishadi/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/fcntl.h:63:47: note: passing argument to parameter 'pathname' here
+int open(const char* const __pass_object_size pathname, int flags)
+                                              ^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:1141:53: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+    LOGD("shared_data_shm_fd child shared_data %d", shared_data);
+                                               ~~   ^~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/logoutput.h:5:66: note: expanded from macro 'LOGD'
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG_NAME,__VA_ARGS__) // 定义LOGD类型
+                                                                 ^~~~~~~~~~~
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:1180:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:826:1: warning: unused function 'attack_slave' [-Wunused-function]
+attack_slave(libflush_session_t *libflush_session, int sum_length, pthread_mutex_t *g_lock,
+^
+/home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libflush/hit.c:169:1: warning: unused function 'attack_slaveX' [-Wunused-function]
+attack_slaveX(libflush_session_t *libflush_session, int sum_length, pthread_mutex_t *g_lock,
+^
+77 warnings generated.
+[4/5] Linking C shared library /home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/src/main/cpp/libflush/libs/arm64-v8a/libflush.so
+[5/5] Linking CXX shared library /home/ishadi/Documents/AndroidCFI/apps/minos/code/minos_code/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so
